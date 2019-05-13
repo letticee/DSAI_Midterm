@@ -134,6 +134,9 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
     
 8. 修改 model2 
     - 所有 feature
+    - data shuffle
+      - train 0.8
+      - valid 0.2
     - n_estimators = 1000
     - Public Score：0.90580
         - ([999]	train-rmse:0.763531	validation-rmse:0.799181)
@@ -145,6 +148,9 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
       - city_code
       - item_shop_last_sale
       - item_last_sale
+    - data shuffle
+      - train 0.8
+      - valid 0.2
     - n_estimators = 1000
     - Public Score：0.89088
         - ([745]	train-rmse:0.773909	validation-rmse:0.804054)
