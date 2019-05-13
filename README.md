@@ -1,15 +1,16 @@
 # DSAI_Midterm
 Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-science-predict-future-sales/overview)
 
-嘗試過
+## 嘗試過的 model
 1. [2019.4/23 Best Score(Public Kernel)](https://www.kaggle.com/dhimananubhav/feature-engineering-xgboost)
     - 0.90646
  
-2. all feature
-    - 增加的 feature：
+2. 所有 feature
+    - [2019.4/23 Best Score(Public Kernel)](https://www.kaggle.com/dhimananubhav/feature-engineering-xgboost) 所產生的 40 個 feature 中的 39 個（delta_revenue_lag_1 未使用）
+    - 增加的 feature（14個）：
        - item_cnt_month_lag_ / date_item_avg_item_cnt_lag_ / date_shop_avg_item_cnt_lag_ 
           - 由原本的 [1,2,3,6,12] 改為 [1,2,3,4,5,6,7,8,9,10,11,12]
-    - 修改的 feature：
+    - 修改計算過程的 feature：
        - item_shop_last_sale (item_shop 的組合上一次賣出數量不為 0 距離現在的月份數)
        ```python
          cache = {}
@@ -45,7 +46,10 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
        ```
  
     - no shuffle
+    - n_estimators = 1000
     - 0.91849
+    - feature importance
+    ![](https://imgur.com/cxh1kYr.png)
 
 3. all feature 
     - 不採用的 feature：
@@ -53,6 +57,7 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
       - date_shop_avg_item_cnt_lag_7-11
       - city_code
     - no shuffle
+    - n_estimators = 1000
     - 0.92212
 
 4. all feature 
@@ -77,6 +82,7 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
       - date_type_avg_item_cnt_lag_1
       - date_subtype_avg_item_cnt_lag_1
     - no shuffle
+    - n_estimators = 1000
     - 0.91485
 
 6. all feature 
@@ -90,7 +96,10 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
       - date_shop_subtype_avg_item_cnt_lag_1
       - date_type_avg_item_cnt_lag_1
       - date_subtype_avg_item_cnt_lag_1
-    - shuffle 0.2 0.8 1000itr
+    - data shuffle
+      - train 0.8
+      - valid 0.2
+    - n_estimators = 1000
     - 0.88437
 
 7. all feature 
@@ -104,7 +113,10 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
       - date_shop_subtype_avg_item_cnt_lag_1
       - date_type_avg_item_cnt_lag_1
       - date_subtype_avg_item_cnt_lag_1
-    - shuffle 0.2 0.8 3000itr
+    - data shuffle
+      - train 0.8
+      - valid 0.2
+    - n_estimators = 3000
     - 0.88114
 
 8. model6 * 5 + model7 * 5
