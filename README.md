@@ -47,7 +47,7 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
  
     - no shuffle
     - n_estimators = 1000
-    - 0.91849
+    - Public Score：0.91849
     - feature importance
     ![](https://imgur.com/cxh1kYr.png)
 
@@ -58,7 +58,7 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
       - city_code
     - no shuffle
     - n_estimators = 1000
-    - 0.92212
+    - Public Score：0.92212
 
 4. all feature 
     - 不採用的 feature：
@@ -66,8 +66,8 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
       - date_shop_avg_item_cnt_lag_7-11
       - city_code
       - item_shop_last_sale
-      - item_last_sale
-    - shuffle
+    - no shuffle
+    - n_estimators = 1000
     - Public Score：0.91116
 
 5. all feature 
