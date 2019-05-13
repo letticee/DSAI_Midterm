@@ -51,7 +51,7 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
     - feature importance
     ![](https://imgur.com/cxh1kYr.png)
 
-3. all feature 
+3. 修改 model2
     - 不採用的 feature：
       - date_item_avg_item_cnt_lag_7-11
       - date_shop_avg_item_cnt_lag_7-11
@@ -60,7 +60,7 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
     - n_estimators = 1000
     - Public Score：0.92212
 
-4. all feature 
+4. 修改 model2
     - 不採用的 feature：
       - date_item_avg_item_cnt_lag_7-11
       - date_shop_avg_item_cnt_lag_7-11
@@ -70,7 +70,7 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
     - n_estimators = 1000
     - Public Score：0.91116
 
-5. all feature 
+5. 修改 model2
     - 不採用的 feature：
       - date_item_avg_item_cnt_lag_7-11
       - date_shop_avg_item_cnt_lag_7-11
@@ -85,7 +85,7 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
     - n_estimators = 1000
     - Public Score：0.91485
 
-6. all feature 
+6. 修改 model2 
     - 不採用的 feature：
       - date_item_avg_item_cnt_lag_7-11
       - date_shop_avg_item_cnt_lag_7-11
@@ -106,7 +106,7 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
     ![](https://imgur.com/jQJhWqu.png)
     
 
-7. all feature 
+7. 修改 model2 
     - 不採用的 feature：
       - date_item_avg_item_cnt_lag_7-11
       - date_shop_avg_item_cnt_lag_7-11
