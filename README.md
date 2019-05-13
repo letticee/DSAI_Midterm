@@ -103,7 +103,7 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
       - date_shop_subtype_avg_item_cnt_lag_1
       - date_type_avg_item_cnt_lag_1
       - date_subtype_avg_item_cnt_lag_1
-    - data shuffle
+    - **data shuffle**
       - train 0.8
       - valid 0.2
     - n_estimators = 1000
@@ -127,7 +127,7 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
     - data shuffle
       - train 0.8
       - valid 0.2
-    - n_estimators = 3000
+    - **n_estimators = 3000**
     - Public Score：0.88114
         - ([2179] train-rmse:0.732121	validation-rmse:0.778347)
     - feature importance
