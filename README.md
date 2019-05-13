@@ -3,7 +3,7 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
 
 ## 嘗試過的 model
 1. [2019.4/23 Best Score(Public Kernel)](https://www.kaggle.com/dhimananubhav/feature-engineering-xgboost)
-    - 0.90646
+    - Public Score：0.90646
  
 2. 所有 feature
     - [2019.4/23 Best Score(Public Kernel)](https://www.kaggle.com/dhimananubhav/feature-engineering-xgboost) 所產生的 40 個 feature 中的 39 個（delta_revenue_lag_1 未使用）
@@ -68,7 +68,7 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
       - item_shop_last_sale
       - item_last_sale
     - shuffle
-    - 0.91116
+    - Public Score：0.91116
 
 5. all feature 
     - 不採用的 feature：
@@ -83,7 +83,7 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
       - date_subtype_avg_item_cnt_lag_1
     - no shuffle
     - n_estimators = 1000
-    - 0.91485
+    - Public Score：0.91485
 
 6. all feature 
     - 不採用的 feature：
@@ -117,19 +117,19 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
       - train 0.8
       - valid 0.2
     - n_estimators = 3000
-    - 0.88114
+    - Public Score：0.88114
 
-8. model6 * 5 + model7 * 5
-    - 0.87779
+8. model6 result * 5 + model7 result * 5
+    - Public Score：0.87779
 
-9. model6 * 4 + model7 * 6 - least RMSE
-    - 0.87766
+9. model6 result * 4 + model7 result * 6 - least RMSE
+    - Public Score：0.87766
 
-10. model6 * 3 + model7 * 7
-    - 0.87794
+10. model6 result * 3 + model7 result * 7
+    - Public Score：0.87794
 
-11. model6 * 2 + model7 * 8
-    - 0.87861
+11. model6 result * 2 + model7 result * 8
+    - Public Score：0.87861
 
-12. model6 * 1 + model7 * 9
-    - 0.87967
+12. model6 result * 1 + model7 result * 9
+    - Public Score：0.87967
