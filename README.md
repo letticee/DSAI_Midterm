@@ -1,6 +1,15 @@
 # DSAI_Midterm
 Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-science-predict-future-sales/overview)
 
+## 嘗試修改的方向
+ - model
+    1. feature selection
+    2. data shuffle
+    3. xgboost 的 n_estimators
+ - result
+    1. 組合不同 model 產生的結果
+
+
 ## 嘗試過的 model
 1. [2019.4/23 Best Score(Public Kernel)](https://www.kaggle.com/dhimananubhav/feature-engineering-xgboost)
     - Public Score：0.90646
