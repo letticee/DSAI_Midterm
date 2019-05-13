@@ -132,17 +132,34 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
     - feature importance
     ![](https://imgur.com/trZUV3y.png)
     
-8. model6 result * 0.5 + model7 result * 0.5
+8. 修改 model2 
+    - 所有 feature
+    - n_estimators = 1000
+    - Public Score：0.90580
+        - ([999]	train-rmse:0.763531	validation-rmse:0.799181)
+        
+9. 修改 model2 
+    - 不採用的 feature：
+      - date_item_avg_item_cnt_lag_7-11
+      - date_shop_avg_item_cnt_lag_7-11
+      - city_code
+      - item_shop_last_sale
+      - item_last_sale
+    - n_estimators = 1000
+    - Public Score：0.89088
+        - ([745]	train-rmse:0.773909	validation-rmse:0.804054)
+    
+10. model6 result * 0.5 + model7 result * 0.5
     - Public Score：0.87779
 
-9. **model6 result * 0.4 + model7 result * 0.6**
+11. **model6 result * 0.4 + model7 result * 0.6**
     - **Public Score：0.87766 - least RMSE**
 
-10. model6 result * 0.3 + model7 result * 0.7
+12. model6 result * 0.3 + model7 result * 0.7
     - Public Score：0.87794
 
-11. model6 result * 0.2 + model7 result * 0.8
+13. model6 result * 0.2 + model7 result * 0.8
     - Public Score：0.87861
 
-12. model6 result * 0.1 + model7 result * 0.9
+14. model6 result * 0.1 + model7 result * 0.9
     - Public Score：0.87967
