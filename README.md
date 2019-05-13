@@ -110,14 +110,14 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
 8. model6 * 5 + model7 * 5
     - 0.87779
 
-**9. model6*4+model7*6**
-    - **0.87766**
+9. model6 * 4 + model7 * 6 - least RMSE
+    - 0.87766
 
-10. model6*3+model7*7
+10. model6 * 3 + model7 * 7
     - 0.87794
 
-11. model6*2+model7*8
+11. model6 * 2 + model7 * 8
     - 0.87861
 
-12. model6*1+model7*9
+12. model6 * 1 + model7 * 9
     - 0.87967
