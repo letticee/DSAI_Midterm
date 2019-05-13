@@ -126,8 +126,8 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
 8. model6 result * 0.5 + model7 result * 0.5
     - Public Score：0.87779
 
-9. model6 result * 0.4 + model7 result * 0.6 - **least RMSE**
-    - Public Score：0.87766
+9. **model6 result * 0.4 + model7 result * 0.6**
+    - **Public Score：0.87766 - least RMSE**
 
 10. model6 result * 0.3 + model7 result * 0.7
     - Public Score：0.87794
