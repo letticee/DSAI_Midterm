@@ -1,7 +1,9 @@
 # DSAI_Midterm
 Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-science-predict-future-sales/overview)
 
-## 修改的方向
+## Model
+ - 參考 [2019.4/23 Best Score(Public Kernel)](https://www.kaggle.com/dhimananubhav/feature-engineering-xgboost)
+### 修改的方向
  - model
     1. feature selection
     2. data shuffle
@@ -9,9 +11,8 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
  - result
     1. 組合不同 model 產生的結果
 
-
-## 嘗試過的 model
-1. [2019.4/23 Best Score(Public Kernel)](https://www.kaggle.com/dhimananubhav/feature-engineering-xgboost)
+### 嘗試過的 model
+1. 原 model - [2019.4/23 Best Score(Public Kernel)](https://www.kaggle.com/dhimananubhav/feature-engineering-xgboost)
     - Public Score：0.90646
 2. 所有 feature
     - [2019.4/23 Best Score(Public Kernel)](https://www.kaggle.com/dhimananubhav/feature-engineering-xgboost) 所產生的 40 個 feature 中的 39 個（delta_revenue_lag_1 未使用）
