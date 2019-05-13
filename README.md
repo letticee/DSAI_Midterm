@@ -4,7 +4,6 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
 ## 嘗試過的 model
 1. [2019.4/23 Best Score(Public Kernel)](https://www.kaggle.com/dhimananubhav/feature-engineering-xgboost)
     - Public Score：0.90646
- 
 2. 所有 feature
     - [2019.4/23 Best Score(Public Kernel)](https://www.kaggle.com/dhimananubhav/feature-engineering-xgboost) 所產生的 40 個 feature 中的 39 個（delta_revenue_lag_1 未使用）
     - 增加的 feature（14個）：
@@ -44,7 +43,6 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
                      if row.item_cnt_month!=0: #多加入這行判斷
                          cache[key] = row.date_block_num         
        ```
- 
     - no shuffle
     - n_estimators = 1000
     - Public Score：0.91849
@@ -105,7 +103,6 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
     - feature importance
     ![](https://imgur.com/jQJhWqu.png)
     
-
 7. 修改 model2 
     - 不採用的 feature：
       - date_item_avg_item_cnt_lag_7-11
@@ -126,7 +123,6 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
     - feature importance
     ![](https://imgur.com/trZUV3y.png)
     
-
 8. model6 result * 0.5 + model7 result * 0.5
     - Public Score：0.87779
 
