@@ -119,18 +119,18 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
     - n_estimators = 3000
     - Public Score：0.88114
 
-8. model6 result * 5 + model7 result * 5
+8. model6 result * 0.5 + model7 result * 0.5
     - Public Score：0.87779
     - (train-rmse:0.732121	validation-rmse:0.778347)
 
-9. model6 result * 4 + model7 result * 6 - least RMSE
+9. model6 result * 0.4 + model7 result * 0.6 - **least RMSE**
     - Public Score：0.87766
 
-10. model6 result * 3 + model7 result * 7
+10. model6 result * 0.3 + model7 result * 0.7
     - Public Score：0.87794
 
-11. model6 result * 2 + model7 result * 8
+11. model6 result * 0.2 + model7 result * 0.8
     - Public Score：0.87861
 
-12. model6 result * 1 + model7 result * 9
+12. model6 result * 0.1 + model7 result * 0.9
     - Public Score：0.87967
