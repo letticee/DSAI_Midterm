@@ -1,7 +1,7 @@
 # DSAI_Midterm
 Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-science-predict-future-sales/overview)
 
-## 嘗試修改的方向
+## 修改的方向
  - model
     1. feature selection
     2. data shuffle
@@ -113,6 +113,7 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
     ![](https://imgur.com/jQJhWqu.png)
     
 7. 修改 model2 
+    - [jupyter notebook](https://nbviewer.jupyter.org/github/letticee/DSAI_Midterm/blob/master/note/feature-engineering-xgboost-90dc7c.ipynb)
     - 不採用的 feature：
       - date_item_avg_item_cnt_lag_7-11
       - date_shop_avg_item_cnt_lag_7-11
