@@ -100,7 +100,11 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
       - train 0.8
       - valid 0.2
     - n_estimators = 1000
-    - 0.88437
+    - Public Score：0.88437
+        - ([999] train-rmse:0.762668	validation-rmse:0.79964)
+    - feature importance
+    ![](https://imgur.com/jQJhWqu.png)
+    
 
 7. all feature 
     - 不採用的 feature：
@@ -118,10 +122,13 @@ Kaggle - [Predict Future Sales](https://www.kaggle.com/c/competitive-data-scienc
       - valid 0.2
     - n_estimators = 3000
     - Public Score：0.88114
+        - ([2179] train-rmse:0.732121	validation-rmse:0.778347)
+    - feature importance
+    ![](https://imgur.com/trZUV3y.png)
+    
 
 8. model6 result * 0.5 + model7 result * 0.5
     - Public Score：0.87779
-    - (train-rmse:0.732121	validation-rmse:0.778347)
 
 9. model6 result * 0.4 + model7 result * 0.6 - **least RMSE**
     - Public Score：0.87766
